@@ -43,6 +43,6 @@ if(!channel.permissionsOf(bot.user.id).has("manageWebhooks")){
                 }});
         }
     } else {
-        channel.createMessage("Please specify a user, i.e. `mock @user message`.");
+        channel.createMessage("Please specify a user, i.e. `" + commandPrefix + commandKey + " @user message`.");
     }
 }
