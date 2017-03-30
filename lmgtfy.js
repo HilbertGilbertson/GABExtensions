@@ -12,7 +12,7 @@
 */
 
 if(commandSuffix.length < 1){
-	channel.createMessage("Please provide a query e.g.`lmgtfy how to use a knife and fork`");
+	channel.createMessage("Please provide a query e.g.`" + commandPrefix + commandKey + " how to use a knife and fork`");
 } else {
 	message.delete();
 	var iie = 0;
